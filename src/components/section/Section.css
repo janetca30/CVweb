@@ -1,0 +1,33 @@
+section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.image-tree {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.image-tree img{
+  width: 100vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+@media only screen and (min-width: 1033px) {
+  section {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+  }
+  .image-tree {
+    width: 100%;
+  }
+  .image-tree img {
+    width: 100%;
+    height: 100%;
+  }
+}
